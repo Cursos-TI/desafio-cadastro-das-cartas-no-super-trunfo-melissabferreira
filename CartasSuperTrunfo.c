@@ -22,8 +22,8 @@ int main() {
         
     // Exibição dos Dados das Cartas:
 
-    printf("Carta 1: \n");
-    scanf("%c", &ncarta1);
+    printf("Numero da Carta 1: \n");
+    scanf("%d", &ncarta1);
 
     printf("Estado 1: \n");
     scanf("%s", &estado1);
@@ -48,7 +48,7 @@ int main() {
     
     // Exiba os valores inseridos para cada atributo da cidade, um por linha.
 
-    printf("Carta 1: %c\n", ncarta1);
+    printf("Carta: %d\n", ncarta1);
     printf("Estado 1: %s\n", estado1);
     printf("Codigo da carta 1: %s\n", codigodacarta1);
     printf("Cidade 1: %s\n", nomedacidade1);
