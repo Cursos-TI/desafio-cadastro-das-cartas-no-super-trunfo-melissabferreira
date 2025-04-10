@@ -11,6 +11,9 @@ int main() {
     // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
     
     // Cadastro das Cartas:
+
+    // CARTA 1
+
     int ncarta1;
     char estado1[20];
     char codigodacarta1 [20];
@@ -57,6 +60,54 @@ int main() {
     printf("PIB 1: %.2f\n", PIB1);
     printf("Numero de pontos turisticos 1: %d\n", numerodepontosturisticos1);
 
+    //CARTA 2
 
+    int ncarta2;
+    char estado2[20];
+    char codigodacarta2 [20];
+    char nomedacidade2[20];
+    int populacao2;
+    float areaemkm2;
+    float PIB2;
+    int numerodepontosturisticos2;
+        
+    // Exibição dos Dados das Cartas:
+
+    printf("Numero da Carta 2: \n");
+    scanf("%d", &ncarta2);
+
+    printf("Estado 2: \n");
+    scanf("%s", &estado2);
+
+    printf("Codigo da carta 2: \n");
+    scanf("%s", &codigodacarta2);
+
+    printf("Nome da cidade 2: \n");
+    scanf("%s", &nomedacidade2);
+
+    printf("População 2: \n");
+    scanf("%d", &populacao2);
+
+    printf("Area em Km² 2: \n");
+    scanf("%f", &areaemkm2);
+
+    printf("PIB 2: \n");
+    scanf("%f", &PIB2);
+
+    printf("Numero de pontos turisticos 2: \n");
+    scanf("%d", &numerodepontosturisticos2);
+    
+    // Exiba os valores inseridos para cada atributo da cidade, um por linha.
+
+    printf("Carta: %d\n", ncarta2);
+    printf("Estado 2: %s\n", estado2);
+    printf("Codigo da carta 2: %s\n", codigodacarta2);
+    printf("Cidade 2: %s\n", nomedacidade2);
+    printf("Populacao 2: %d\n", populacao2);
+    printf("Area em Km²: %.2f Km²\n", areaemkm2);
+    printf("PIB 2: %.2f\n", PIB2);
+    printf("Numero de pontos turisticos 2: %d\n", numerodepontosturisticos2);
+
+    
     return 0;
 }
