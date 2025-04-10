@@ -73,7 +73,7 @@ int main() {
     printf("Numero de pontos turisticos 2: \n");
     scanf("%d", &numerodepontosturisticos2);
 
-    // Exiba os valores inseridos para cada atributo da cidade, um por linha.
+    // Valores carta 1:
 
     printf("Carta: %d\n", ncarta1);
     printf("Estado 1: %s\n", estado1);
@@ -83,6 +83,8 @@ int main() {
     printf("Area em Km²: %.2f Km²\n", areaemkm1);
     printf("PIB 1: %.2f\n", PIB1);
     printf("Numero de pontos turisticos 1: %d\n", numerodepontosturisticos1);
+
+    // Valores carta 2:
 
     printf("Carta: %d\n", ncarta2);
     printf("Estado 2: %s\n", estado2);
@@ -94,6 +96,5 @@ int main() {
     printf("Numero de pontos turisticos 2: %d\n", numerodepontosturisticos2);
 
     
-
     return 0;
 }
