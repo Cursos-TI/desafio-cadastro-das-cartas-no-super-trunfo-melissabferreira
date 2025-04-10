@@ -28,7 +28,7 @@ int main() {
     printf("Estado 1: \n");
     scanf("%s", &estado1);
 
-    pintf("Codigo da carta 1: \n");
+    printf("Codigo da carta 1: \n");
     scanf("%s", &codigodacarta1);
 
     printf("Nome da cidade 1: \n");
